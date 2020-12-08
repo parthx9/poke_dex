@@ -1,20 +1,6 @@
 import { useEffect, useState } from 'react';
 
-
-
-function Search(){
-    const [ search, setsearch ] = useState(null);
-    const handleChange= (e) =>{
-        setsearch(e.target.value)
-        console.log(search)
-    }
-
-    const handleSubmit=(e)=>{
-        e.preventDefault()
-        fetch('https://pokeapi.co/api/v2/pokemon/'+search)
-        .then(response => response.json())
-        .then(response => console.log(response))
-    }
+function Search( { handleSubmit, handleChange } ){
 
     return(
         <div className='search_area'>

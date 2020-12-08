@@ -19,13 +19,29 @@ header .logo{
   height: 75px;
   font-size: 36px;
   color: #FF0000;
-  font-weight: 500;
-  border-radius: 10px;
+  font-weight: 700;
+  font-family: 'Robota, 'sans-serif;
+  border-radius: 20px;
+  background-color: #FFDE00;
   padding-left: 20px;
-  border: 5px solid #FFDE00;
+  border: 5px solid #FF0000;
 }
 .search_area input::placeholder{
   color: #FF0000;
   font-weight: 500;
   font-size: 36px;
+}
+.search_area input:focus{
+  outline: none;
+}
+.pokeball-img{
+  text-align: center;
+  margin-top: 100px;
+}
+.pokeball-img h2{
+  font-size: 34px;
+  color:#FFDE00;
+}
+.pokeball-img img{
+  width: 500px;
 }
