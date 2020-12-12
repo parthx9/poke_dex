@@ -45,3 +45,30 @@ header .logo{
 .pokeball-img img{
   width: 500px;
 }
+.poke-card{
+  text-align: center;
+  border: 5px solid #FF0000;
+  border-radius: 20px;
+  padding: 0;
+  color: #FF0000;
+  background-color: #FFDE00;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+.poke-card .name{
+  text-transform: capitalize;
+  font-weight: 900;
+}
+.poke-card p{
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+}
+.poke-card .weight, .height{
+  display: inline;
+}
+.poke-card .weight{
+  padding-left: 20px;
+}
